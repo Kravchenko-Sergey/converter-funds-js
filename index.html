@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/styles.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="wrapper">
+        <header class="header"></header>
+        <main class="main">
+            <form class="formSubmit" action="#">
+                <div class="input__container">
+                    <input class="input" type="text" placeholder="Введите название">
+                </div>
+                <button class="submitButton" type="submit">Добавить</button>
+            </form>
+            <section class="portfolio">
+                <h1 class="portfolio__header">Ваш портфель</h1>
+                <div class="portfolio__fund-list"></div>
+            </section>
+            <section class="list-companies">
+                <h1 class="list-companies__title">Крупнейшие компании</h1>
+                <table class="list-compaties__table table-company">
+                    <thead class="table-company__head">
+                        <tr class="table-company__head-row">
+                            <td>Название<button>+</button><button>-</button></td>
+                            <td>Доля<button>+</button><button>-</button></td>
+                            <td>Стоимость<button>+</button><button>-</button></td>
+                            <td>Страна<button>+</button><button>-</button></td>
+                            <td>Сектор<button>+</button><button>-</button></td>
+                        </tr>
+                    </thead>
+                </table>
+            </section>
+        </main>
+        <footer></footer>
+    </div>
+    <script src="index.js"></script>
+</body>
+</html>
+
